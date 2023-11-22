@@ -1,0 +1,45 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-container a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .nav-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-container .left-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-container .right-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-icon {
+    margin-right: 10px;
+    /* Add your company logo/icon styles here */
+  }
+  
+  .shopping-cart-icon {
+    margin-left: 10px;
+    /* Add your shopping cart icon styles here */
+  }
+  
